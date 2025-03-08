@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
-import CustomDrawer from './navigation/CustomDrawer';
+import CustomDrawer from './src/navigation/CustomDrawer';
 import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {

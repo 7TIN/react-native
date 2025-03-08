@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import * as FileSystem from 'expo-file-system';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { FileItem, FolderItem } from '../types';
-import { getFileExtension, getFileType } from '../utils/fileUtils';
+import { FileItem, FolderItem } from '../src/types';
+import { getFileExtension, getFileType } from '../src/utils/fileUtils';
 
 const RECENT_FILES_KEY = 'recentFiles';
 const FAVORITE_FILES_KEY = 'favoriteFiles';
